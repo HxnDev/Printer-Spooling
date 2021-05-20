@@ -48,3 +48,17 @@ empty then User node gets deleted.
 be deleted from both User document queue and spooler document queue after writing the
 status in the out.txt file.
 ```
+
+![alt text](https://github.com/HxnDev/Printer-Spooling/blob/main/f1.png?raw=true)
+
+Following is the format of user.txt file;
+
+User_ID Priority TotalDocuments [Doc_ID TotalPages]List
+
+Following is the format of printer.txt file;
+
+Printer_ID MaxCapacity
+
+The format of out.txt should be as follows;
+
+User_ID Doc_ID Printer_ID
