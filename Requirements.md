@@ -11,7 +11,7 @@ queue without waiting. As soon as a process has written its document to the spoo
 can perform other tasks, while a separate printing process operates the printer.
 
 In this activity, you are required to implement printer spooler for a working environment which is
-equipped with **3 printers** using concepts of Linked Lists and Queues. Each node in the linked list
+equipped with **3 printers** using concepts of Linked Lists and Queues.
 
 
 **PrinterSpooler** depicts a **printer** with a **printer_id** , **current_load percentage (** value will be calculated at
